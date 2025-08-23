@@ -1,4 +1,4 @@
-#include <stdio.h>
+    #include <stdio.h>
 
     int main() {
     char estado1, estado2;
@@ -64,8 +64,11 @@
     printf("4 - Comparar Pontos Turísticos\n");
     printf("Escolha uma opção: ");
     scanf("%d", &opcao);
-
+    
+    printf("\n------------------------\n");
     printf("\nResultado da Comparação:\n");
+    printf("\n------------------------\n");
+
 
     switch(opcao) {
         case 1: // Comparação por População
@@ -139,6 +142,28 @@
         default:
             printf("Opção inválida! Escolha entre 1 e 4.\n");
     }
+
+    printf("\n-----------------------------------\n");
+    printf("\n---------- ( CARTAS ) -------------\n");
+    printf("\n-----------------------------------\n");
+    printf("\n--- Carta 1 [%s] ---\n", codigo1);
+    printf("Estado: %c\n", estado1);
+    printf("Código: %s\n", codigo1);
+    printf("Nome da Cidade: %s\n", nomeCidade1);
+    printf("População: %d\n", populacao1);
+    printf("Área: %.2f km²\n", area1);
+    printf("PIB: %.2f bilhões de reais\n", pib1);
+    printf("Número de Pontos Turísticos: %d\n", pontosTuristicos1);
+
+    printf("\n-----------------------------------\n");
+    printf("\n--- Carta 2 [%s] ---\n", codigo2);
+    printf("Estado: %c\n", estado2);
+    printf("Código: %s\n", codigo2);
+    printf("Nome da Cidade: %s\n", nomeCidade2);
+    printf("População: %d\n", populacao2);
+    printf("Área: %.2f km²\n", area2);
+    printf("PIB: %.2f bilhões de reais\n", pib2);
+    printf("Número de Pontos Turísticos: %d\n", pontosTuristicos2);
 
     return 0;
 }
