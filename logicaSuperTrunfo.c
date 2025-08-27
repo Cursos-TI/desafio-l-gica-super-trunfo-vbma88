@@ -2,8 +2,8 @@
 
 int main() {
     // Estrutura de dados das cartas
-    char estado1[30], codigo1[10], cidade1[30];
-    char estado2[30], codigo2[10], cidade2[30];
+    char estado1[25], codigo1[4], cidade1[25];
+    char estado2[25], codigo2[4], cidade2[25];
     int populacao1, populacao2, pontos1, pontos2;
     float area1, area2, pib1, pib2;
     float densidade1, densidade2;
